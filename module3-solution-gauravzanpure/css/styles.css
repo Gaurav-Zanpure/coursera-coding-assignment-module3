@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body{
+	color: black;
+    font-weight: bold;
+}
+
+#header-nav{
+	background: gray;
+	border-radius: 0;
+	border: 0;
+	height: 80px;
+	border: 2px solid;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#nav-list{
+    margin-top: 0px;
+	border: 2px solid;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border:2px solid black;
+}
+
+.navbar-header div.collapse{
+	width: 100%;
+}
+
+#nav-list li{
+  background:#fff;
+  border-bottom:2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  line-height: 8px
+}
+
+.menu{
+  margin:15px; 
+}
+.main-title{
+  font-weight: bold;
+}
+.menu-content{ 
+  margin-top:40px;
+}
+.menu-title{
+  font-weight: bold;
+}
+.menu-item{
+  margin-bottom: 20px;
+  background:#999999;  
+  padding: 10px;
+}
+.menu-item h4 {
+  font-weight: bold;
+}
+.menu-item p{
+  font-weight:600;
+  font-size: .9em;
+  padding: 5px 10px;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+
+  .main-title{
+   margin-top: 70px;
+  }
+
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+}
+
+#nav-list a:hover{
+	background: gray;
+}
